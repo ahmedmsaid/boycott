@@ -4,6 +4,27 @@ body {
     font-family: Arial, sans-serif;
   }
 
+  .icon {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(38, 93, 138);
+    border-radius: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+  }
+
   .navbar {
     background-color: #333;
     color: #fff;
